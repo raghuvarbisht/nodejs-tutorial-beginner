@@ -1,0 +1,29 @@
+{
+  "name": "beginner",
+  "version": "1.0.0",
+  "description": "node js beginner tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghuvarbisht/nodejs-tutorial-beginner.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "beginner"
+  ],
+  "author": "raghuvar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghuvarbisht/nodejs-tutorial-beginner/issues"
+  },
+  "homepage": "https://github.com/raghuvarbisht/nodejs-tutorial-beginner#readme",
+  "dependencies": {
+    "nodemon": "^2.0.1",
+    "validator": "^11.1.0",
+    "yargs": "^15.0.2"
+  }
+}
