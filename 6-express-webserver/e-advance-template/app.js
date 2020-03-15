@@ -44,6 +44,15 @@ app.get('/contact',(req,res)=>{
     });
 });
 
+// * use for page not found when invalid routes  
+app.get('*',(req,res)=>{
+    res.render('404',{
+       title:'Page not found ',
+       errorMessage: '404 page not found',
+       name: 'Raghuvar Visht'        
+    });
+});
+
 app.listen(3000,()=>{
     console.log('port listen at 3000');
 })
