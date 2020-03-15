@@ -25,7 +25,7 @@ app.listen(3000,(req,res)=>{
 
 /* Step to test code of this file
 1- command to run code - 
-a) nodemon 6-express-webserver/html-json/app.js
+a) nodemon 6-express-webserver/a-html-json/app.js
 
 2- Test url-
 a) http://localhost:3000/

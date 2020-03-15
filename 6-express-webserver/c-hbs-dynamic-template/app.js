@@ -9,7 +9,7 @@ app.use(express.static(publicDirPath));
 app.set('view engine', 'hbs');
 
 //Note -- Files refering from views folder in root level
-// view/index.hbs
+//views/index.hbs
 //views/about.hbs
 
 app.get('',(req,res)=>{
@@ -34,3 +34,14 @@ app.get('/about',(req,res)=>{
 app.listen(3000,()=>{
     console.log('listen port 3000');
 })
+
+
+/* Step to test code of this file
+1- command to run code - 
+a) nodemon 6-express-webserver/c-hbs-dynamic-template/app.js
+
+2- Test url- // refering file from views folder at root level //
+a) http://localhost:3000/
+b) http://localhost:3000/about
+
+*/

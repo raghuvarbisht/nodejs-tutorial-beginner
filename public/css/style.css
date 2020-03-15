@@ -9,3 +9,7 @@ img {
     width: 300px;
     height: 400px;
 }
+
+ul li {
+ display:inline;
+}

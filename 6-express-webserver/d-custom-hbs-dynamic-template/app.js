@@ -9,7 +9,7 @@ app.use(express.static(publicDirPath));
 
 // created views folder in react and refeering files from there
 app.set('view engine', 'hbs');
-// customizing "views" folder path for templates
+// customizing "views" folder path to templates folder inside "d-custom-hbs-dynamic-template"
 app.set('views', templatePath);
 
 //Note -- Files refering from views folder in root level
@@ -42,4 +42,17 @@ app.get('/help',(req,res)=>{
 
 app.listen(3000,()=>{
     console.log('listen port 3000');
-})
+});
+
+
+/* Step to test code of this file
+
+1- command to run code - 
+a) nodemon 6-express-webserver/d-custom-hbs-dynamic-template/app.js
+
+2- Test url- // refering file from templets folder inside d-custom-hbs-dynamic-template folder
+a) http://localhost:3000/index
+b) http://localhost:3000/about
+c) http://localhost:3000/help
+
+*/

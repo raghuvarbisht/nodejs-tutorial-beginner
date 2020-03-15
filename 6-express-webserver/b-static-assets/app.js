@@ -12,7 +12,7 @@ app.listen(3000,()=>{
 
 /* Step to test code of this file
 1- command to run code - 
-a) nodemon 6-express-webserver/static-assets/app.js
+a) nodemon 6-express-webserver/b-static-assets/app.js
 
 2- Test url- // refering file from public folder //
 a) http://localhost:3000/index.html
